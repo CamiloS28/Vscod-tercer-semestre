@@ -1,0 +1,42 @@
+h1 {
+    color:#8BE7A5;
+    font-size: 50px; 
+    font-weight:bold;
+    font-style:italic;
+    font-family:'Impact';
+ }
+
+t2{
+    color : #2ca6ed;
+    font-size: 25px;
+    font-weight: bold;
+    font-size: italic;
+}
+
+/* estas siguientes lineas es para decorar la barrita */
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden; 
+    background-color:#e67979; 
+
+}
+li{
+   float: left;
+}
+li a{
+   display: block;
+   color:#de6363 ;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+
+}
+
+li a:hover{
+    background-color:#111;
+}
+.active {
+      background-color: #d857ff
+}
