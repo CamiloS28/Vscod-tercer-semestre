@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(240, 237, 237);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+h1,h2,.perfiles,a{
+    text-align: center;
+    text-decoration: none;
+}
+img{
+    display: block;
+    margin: 15px auto;
+    text-align: center;
+}
+.perfiles:hover, a:hover{
+    color: red;
+}
+.perfiles, a{
+    color: blueviolet;
+}
+.barra_principal{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(244, 229, 211);
+    border: 3px solid black;
+ 
+}
+.titulo-principal{
+    padding: 0 700px;
+}
+#dead,#squat,#banca{
+    color: black;
+}
+
+
+  
